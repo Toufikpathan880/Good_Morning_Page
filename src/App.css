@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(135deg, #fde7b0, #f5c26b);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 360px;
+  padding: 30px;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 25px 40px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.card h1 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.card p {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 25px;
+}
+
+.card input {
+  width: 100%;
+  padding: 12px 16px;
+  margin-bottom: 15px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.card input::placeholder {
+  color: #888;
+}
+
+.card button {
+  margin-top: 10px;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 30px;
+  background: linear-gradient(135deg, #f2a93b, #e58a1f);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card button:hover {
+  opacity: 0.9;
+}
